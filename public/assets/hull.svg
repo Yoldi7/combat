@@ -1,0 +1,35 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Fondo transparente -->
+  <!-- Chasis -->
+  <g id="hull" transform="translate(0,0)">
+    <!-- Tracks -->
+    <rect x="18" y="56" width="220" height="40" rx="10" fill="#2f2f2f"></rect>
+    <rect x="18" y="160" width="220" height="40" rx="10" fill="#2f2f2f"></rect>
+    <!-- Track inner details -->
+    <g fill="#1f1f1f" opacity="0.55">
+      <rect x="32" y="64" width="12" height="24" rx="3"></rect>
+      <rect x="64" y="64" width="12" height="24" rx="3"></rect>
+      <rect x="96" y="64" width="12" height="24" rx="3"></rect>
+      <rect x="128" y="64" width="12" height="24" rx="3"></rect>
+      <rect x="160" y="64" width="12" height="24" rx="3"></rect>
+      <rect x="192" y="64" width="12" height="24" rx="3"></rect>
+
+      <rect x="32" y="168" width="12" height="24" rx="3"></rect>
+      <rect x="64" y="168" width="12" height="24" rx="3"></rect>
+      <rect x="96" y="168" width="12" height="24" rx="3"></rect>
+      <rect x="128" y="168" width="12" height="24" rx="3"></rect>
+      <rect x="160" y="168" width="12" height="24" rx="3"></rect>
+      <rect x="192" y="168" width="12" height="24" rx="3"></rect>
+    </g>
+
+    <!-- Central hull body -->
+    <rect x="52" y="92" width="152" height="72" rx="14" fill="#3b6b2f" stroke="#2c4f22" stroke-width="4"></rect>
+
+    <!-- Cockpit / hatch -->
+    <ellipse cx="128" cy="128" rx="28" ry="18" fill="#2f5a25" stroke="#233f1b" stroke-width="3"></ellipse>
+
+    <!-- Some highlights -->
+    <path d="M70 112 q30 -12 88 0" fill="none" stroke="#66a14a" stroke-width="3" opacity="0.35"></path>
+  </g>
+</svg>
